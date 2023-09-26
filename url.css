@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: font-family: 'Poppins', sans-serif;
+}
+body
+{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(banner.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 150px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: white;
+    text-decoration: none ;
+}
+.nav-links ul li ::after{
+    content:'';
+    margin: auto;
+    width: 100%;
+    height: 2px;
+    background: #f44336;
+}
+.text-box{
+    width: 90%;
+    color: white;
+    
+    left: 50%;
+    text-align: center;
+}
+.text-box h1{
+    font-size: 56px;
+}
+nav .fa{
+    display: none;
+}
+@media(max-width: 700px){
+    .text-box h1{
+        font-size: 20px;
+    }
+    nav img{
+        width: 100px;
+    }
+    .nav-links{
+        position: absolute;
+        background: #f44336;
+        height: 200px;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: 0;
+        text-align: left;
+        z-index: 2;
+        transition: 1s;
+    }
+    .nav-links ul li{
+        display: block;
+    }
+    nav.fa{
+        display: block;
+        color: white;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+}
+#outer
+{
+    width: 1000px;
+    margin: auto;
+
+    height: 100vh;
+    overflow: hidden;
+}
+#inner
+{
+ width: 5000px;
+ position: relative;
+ animation: akshay 25s none infinite;
+}
+#inner img
+{
+float: left;
+}
+@keyframes akshay
+{
+0%
+{
+left:0;
+}
+16%
+{
+left:0;
+}
+20%
+{
+left:-1000px;
+}
+36%
+{
+left:-1000px;
+}
+40%
+{
+left:-2000px;
+}
+56%
+{
+
+left:-2000px;
+}
+60%
+{
+left:-3000px;
+}
+76%
+{
+left:-3000px;
+}
+80%
+{
+left:-4000px;
+}
+96%
+{
+left:-4000px;
+}
+100%
+{
+left:-5000px; 
+}
+}

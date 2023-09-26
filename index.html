@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>University</title>
+        <link rel="stylesheet" href="url.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+<nav>
+    <a href="index.html"><img src="logo.png" alt=""></a>
+    <div class="nav-links">
+        <i class="fa fa-times" onclick="hidemenu()" ></i>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="">CONTACT</a></li>
+
+        </ul>
+    </div>
+    <i class="fa fa-bars" onclick="showmenu()"></i>
+</nav>
+
+
+<div  id="outer">
+    <div id="inner">
+        <img src="l1.png">
+        <img src="l2.png">
+        <img src="l.png">
+        <img src="l4.png">
+        <img src="university.png">
+    </div>
+</div>
+<div class="text-box">
+    <h1>MALLAREDDY UNIVERSITY</h1>
+    <p>Malla Reddy University, Hyderabad (As per Telangana State Private Universities  Act  No. 13  of  2020,  Higher  Education  (UE)  Department dt. 15.6.2020) was established in the year 2020 through the State Legislature Council of Telangana, Govt. of Telangana.
+         It is offering industry-focused specialised Undergraduate and Postgraduate courses with the aim of providing Quality Higher Education on par with International standards. It persistently seeks and adopts innovative methods to improve the quality of higher 
+         education on a consistent basis.</p>
+</div>
+
+        
+        <!--course-->
+        
+    
+        <script>
+            var navlinks=document.getElementById("navlinks");
+            function showmenu(){
+                navlinks.style.right="0"
+            }
+            function hidemenu(){
+                navlinks.style.right="-200px"
+            }
+        </script>
+    </body>
+</html>

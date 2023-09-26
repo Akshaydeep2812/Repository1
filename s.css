@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* box-model*/
+  }
+  
+  body {
+    font-family: "Poppins", sans-serif;
+    background-color: #ebf2ff;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("banner.png");
+    background-position: center;
+    background-size: cover;
+    width: 80vw;
+    height: 80vh;
+    border-radius: 2.5vh;
+    -webkit-border-radius: 2.5vh;
+    -moz-border-radius: 2.5vh;
+    -ms-border-radius: 2.5vh;
+    -o-border-radius: 2.5vh;
+    overflow: hidden;
+    color: white;
+    position: relative;
+  }
+  
+  .card-img-top {
+    padding: 15px;
+    height: 300px;
+    width: auto;
+  }
+  
+  .place__holder__image {
+    width: 100%;
+  }
+.nav-item{
+  color: rgb(26, 10, 152);
+    text-decoration: none;
+    transition: color 0.5s;
+}
+.nav-item{
+  color: rgb(26, 10, 152);
+    text-decoration: none;
+    transition: color 0.5s;
+}
+.nav-itm{
+  color: rgb(26, 10, 152);
+    text-decoration: none;
+    transition: color 0.5s;
+}
+  
